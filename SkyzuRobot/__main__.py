@@ -83,7 +83,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 *Hai {}! Have a Nice Day!
 ────────────────────────
-✿ I'm a multifunctional robot that you can use for personal use or for managing your group with various useful features.
+✿ I'm Isuzu Sento a multifunctional robot that you can use for personal use or for managing your group with various useful features.
 ✿ I was created by my manager @Ech_null. If there is a problem please contact him.
 ────────────────────────
 Please type /help or click the help menu in the chat to see the entire list of commands I have! ✪ ω ✪
