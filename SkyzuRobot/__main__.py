@@ -81,12 +81,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Hello {} !*
+*Hai {}! Have a Nice Day!
 ────────────────────────
-✪ I'm an anime theme bot designed to help manage your telegram group with a lot features.
-✪ Maintained by @xflskyzu ✨
+✿ I'm a multifunctional robot that you can use for personal use or for managing your group with various useful features.
+✿ I was created by my manager @Ech_null. If there is a problem please contact him.
 ────────────────────────
-Hit the /help to see available command.
+Please type /help or click the help menu in the chat to see the entire list of commands I have! ✪ ω ✪
 """
 
 buttons = [
@@ -94,18 +94,18 @@ buttons = [
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ​", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="Skyzu_"),
-        InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ​", switch_inline_query_current_chat=""),
+        InlineKeyboardButton(text="About", callback_data="Skyzu_"),
+        InlineKeyboardButton(text="Try Inline​", switch_inline_query_current_chat=""),
     ],
     [
         InlineKeyboardButton(
-            text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://github.com/Skyzu/SkyzuRobot"
+            text="Channel​", url="https://github.com/"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="Support​", url=f"https://t.me/"),
     ],
     [
         InlineKeyboardButton(
-            text="➗ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ​ ➗",
+            text="➗ Add Me To Your Group​ ➗",
             url=f"t.me/{dispatcher.bot.username}?startgroup=new",
         ),
     ],
@@ -116,10 +116,8 @@ Click on the button bellow to get description about specifics command."""
 
 EMI_IMG = "https://telegra.ph/file/56811b69cbcece20bbebf.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @skyzu \
- Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+DONATE_STRING = """Yowww! You can make donations or support via QR funds in the image.
+Thank you very much!"""
 
 IMPORTED = {}
 MIGRATEABLE = []
